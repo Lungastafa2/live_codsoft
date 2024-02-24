@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+
+    <title>CALCULATOR</title>
+  </head>
+  <body>
+    <div class="container">
+      <div id="small_containter">
+        <div id="screen">
+          <!-- screen -->
+          <input type="text" placeholder="0" id="screen_input" />
+        </div>
+
+        <div class="btn-container">
+          
+          <button onclick="myNumberFunction('(')">(</button>
+          <button onclick="myNumberFunction(')')">)</button>
+          <button onclick="myDelFunction()">Del</button>
+          <button onclick="myClearFunction('')">AC</button>
+
+          <button onclick="myNumberFunction('7')">7</button>
+          <button onclick="myNumberFunction('8')">8</button>
+          <button onclick="myNumberFunction('9')">9</button>
+          <button onclick="myNumberFunction('+')">+</button>
+
+
+          <button onclick="myNumberFunction('4')">4</button>
+          <button onclick="myNumberFunction('5')">5</button>
+          <button onclick="myNumberFunction('6')">6</button>
+          <button onclick="myNumberFunction('-')">-</button>
+          
+          <button onclick="myNumberFunction('1')">1</button>
+          <button onclick="myNumberFunction('2')">2</button>
+          <button onclick="myNumberFunction('3')">3</button>
+          <button onclick="myNumberFunction('*')">*</button>
+
+
+          <button onclick="myNumberFunction('0')">0</button>
+          <button onclick="myNumberFunction('.')">.</button>
+          <button onclick="myNumberFunction('/')">/</button>
+          <button onclick="myEqualFunction()">=</button>
+          
+          
+        </div>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
