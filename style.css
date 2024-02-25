@@ -8,63 +8,14 @@
   border-radius: 30px;
 }
 
+
+
+
 @media screen and (min-width: 900px) {
-
-#small_containter {
-  background-color: rgb(6, 157, 245);
-  height: 65%;
-  width: 30%;
-  border-radius: 5%;
-  margin-top: 4%;
-}
-
-
-
-#screen input {
-  background-color: rgb(253, 251, 251);
-  height: 10%;
-  width: 78%;
-  font-size: 70px;
-  margin: 15%  10%  10% 10% ; 
-  border-radius: 25px;
-  text-align: end;
-  font-family: "LED Digital 7", sans-serif;
-}
-
- 
-.btn-container {
-  
-  display: grid;
-  grid-template-columns: 21% 21% 21% 21%;
-  align-items: center;
-  grid-gap: 5%;
-  padding: 1% 10% 2% 12%;
-
-  font-size: 40px;
-  /* margin: 100px 40px 10px 40px; */
-}
-
-button {
-  padding: 20%;
-  font-size: 25px;
-  cursor: pointer;
-  background-color: #0c03f9;
-  color: white;
-  border-radius: 10px;
-}
-
-}
-
-
-
-
-
-
-@media screen and (max-width: 890px) {
 
   #small_containter {
     background-color: rgb(6, 157, 245);
-    height: 60%;
+    height: 70%;
     width: 60%;
     border-radius: 5%;
     margin-top: 4%;
@@ -80,7 +31,7 @@ button {
     margin: 15%  10%  10% 10% ; 
     border-radius: 25px;
     text-align: end;
-    font-family: "LED Digital 7", sans-serif;
+    
   }
   
    
@@ -120,12 +71,15 @@ button {
 
 
 
-@media screen and (max-width: 380px) {
+
+
+
+@media screen and (min-width: 450px) {
 
   #small_containter {
     background-color: rgb(6, 157, 245);
-    height: 450px;
-    width: 320px;
+    height: 600px;
+    width: 420px;
     border-radius: 5%;
     margin-top: 4%;
   }
@@ -140,7 +94,7 @@ button {
     margin: 18%  10%  10% 10% ; 
     border-radius: 20px;
     text-align: end;
-    font-family: "LED Digital 7", sans-serif;
+    
   }
   
    
@@ -178,12 +132,12 @@ button {
 
 
 
-  @media screen and (max-width: 325px) {
+  @media screen and (max-width: 450px) {
 
     #small_containter {
       background-color: rgb(6, 157, 245);
-      height: 430px;
-      width: 300px;
+      height: 490px;
+      width: 340px;
       border-radius: 5%;
       margin-top: 4%;
     }
@@ -192,13 +146,13 @@ button {
     
     #screen input {
       background-color: rgb(253, 251, 251);
-      height: 10%;
+      height: 5%;
       width: 78%;
-      font-size: 60px;
+      font-size: 50px;
       margin: 18%  10%  10% 10% ; 
       border-radius: 20px;
       text-align: end;
-      font-family: "LED Digital 7", sans-serif;
+      
     }
     
      
@@ -216,7 +170,7 @@ button {
     
     button {
       padding: 20%;
-      font-size: 25px;
+      font-size: 20px;
       cursor: pointer;
       background-color: #0c03f9;
       color: white;
@@ -224,6 +178,70 @@ button {
     }
     
     }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    @media screen and (max-width: 325px) {
+
+      #small_containter {
+        background-color: rgb(6, 157, 245);
+        height: 420px;
+        width: 300px;
+        border-radius: 5%;
+        margin-top: 4%;
+      }
+      
+      
+      
+      #screen input {
+        background-color: rgb(253, 251, 251);
+        height: 5%;
+        width: 78%;
+        font-size: 50px;
+        margin: 18%  10%  10% 10% ; 
+        border-radius: 20px;
+        text-align: end;
+        
+      }
+      
+       
+      .btn-container {
+        
+        display: grid;
+        grid-template-columns: 21% 21% 21% 21%;
+        align-items: center;
+        grid-gap: 5%;
+        padding: 1% 10% 2% 12%;
+      
+        font-size: 20px;
+        /* margin: 100px 40px 10px 40px; */
+      }
+      
+      button {
+        padding: 20%;
+        font-size: 12px;
+        cursor: pointer;
+        background-color: #0c03f9;
+        color: white;
+        border-radius: 10px;
+      }
+      
+      }
 
 
 

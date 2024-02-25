@@ -11,7 +11,7 @@ This is a simple calculator web application that allows users to perform basic a
 
 ## Demo
 
-You can see a live demo of the calculator ![image](https://github.com/Lungastafa2/CODSOFT/assets/49059211/62aef6ee-6458-4781-a1d5-fe03618d51fe)
+You can see a live demo of the calculator https://lungastafa2.github.io/live_codsoft/index.html
 
 
 ## Technologies Used
